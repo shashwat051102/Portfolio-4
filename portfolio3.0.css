@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* min-height: 100vh;
+    width: 100vw; */
+  background-color: #d9621c !important;
+  overflow-x: hidden;
+}
+
+#header {
+  background-image: url(81493-sunset-mountains-minimalism-minimalist-artist-artwork-digital-art-hd.jpg);
+  object-fit: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  height: 750px;
+}
+
+#header h1 {
+  position: relative;
+  top: 100px;
+  /* left: 100px; */
+  color: #cece5a;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+/* .programmer{
+    color: #f50606 !important;
+} */
+#header span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+
+  color: #cece5a;
+}
+
+#about {
+  display: flex;
+  gap: 8rem;
+  color: #cece5a;
+  height: 400px;
+  margin: 30px;
+}
+
+#about img {
+  position: relative;
+  top: 125px;
+  border-radius: 50%;
+  width: 200px;
+  height: 120px;
+}
+
+#about h1 {
+  position: relative;
+  top: 150px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+#about p {
+  position: relative;
+  top: 25%;
+  color: black;
+  font-size: medium;
+  line-height: 2;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border-style: none;
+  border-bottom: dotted 20px #cece5a;
+  position: relative;
+  left: 35%;
+  top: 100px;
+  width: 500px;
+}
+
+#skills {
+  display: flex;
+  /* gap: 8rem; */
+  color: #cece5a;
+  height: 300px;
+  position: relative;
+  top: 200px;
+  margin: 100px;
+}
+
+#skills h1 {
+  position: relative;
+  top: 100px;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+#skills .hr2 {
+  position: relative;
+  left: 9%;
+  top: 300px;
+}
+
+#skills ul {
+  position: relative;
+  left: 70%;
+  justify-content: space-around;
+
+  list-style: none;
+}
+#skills p {
+  display: inline;
+  line-height: 4;
+  padding: 10px;
+}
+
+#project {
+  /* display: flex; */
+  margin-top: 30%;
+}
+
+#project h1 {
+  position: relative;
+  top: 1%;
+  /* left: 500px; */
+  color: #cece5a;
+  margin-bottom: 8%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+}
+
+#project .project-content {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10%;
+  top: 30%;
+}
+
+.card {
+  /* background-color: #CECE5A; */
+
+  /* border: 2px solid black; */
+  background: linear-gradient(to top, #3d30a2 50%, #cece5a 50%);
+  background-size: 100% 200%;
+  background-position: top;
+  transition: all 0.5s ease-out;
+}
+
+.card-body h5 {
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  /* background-color: #d9621c; */
+  background-position: bottom;
+  border: 1px solid black;
+  color: #fff;
+}
+
+.webdevelopment:hover {
+  fill: white;
+}
+
+.btn {
+  background-color: #d9621c !important;
+}
+
+.contact {
+  display: flex;
+  gap: 6rem;
+  position: relative;
+  top: 200px;
+  margin-bottom: 20%;
+}
+
+.contact h1 {
+  color: #cece5a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact li {
+  position: relative;
+  left: 10%;
+}
+.contact i p {
+  display: inline;
+  padding: 10%;
+  font-size: 10px;
+}
+
+.contact .dropdown-menu li:hover {
+  background-color: #cece5a;
+}
+
+@media (max-width: 600px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    /* min-height: 100vh;
+        width: 100vw; */
+    background-color: #090f25 !important;
+    overflow-x: hidden;
+  }
+
+  body h1 {
+    color: #ffe5ad;
+  }
+
+  #header {
+    background-image: url(8951b0310ec70ee604585dca24ac4e90.jpg);
+    object-fit: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    height: 750px;
+    color: #ffe5ad;
+  }
+
+  #header h1 {
+    color: #ffe5ad;
+  }
+  #header h1 span {
+    color: #ffe5ad;
+  }
+
+  #about {
+    display: inline-block;
+    flex-wrap: wrap;
+    height: 400px;
+    color: #ffe5ad;
+  }
+
+  #about p {
+    color: aliceblue;
+  }
+  .about-item {
+    margin: 20px;
+  }
+  #skills {
+    display: inline;
+    flex-wrap: wrap;
+    height: 400px;
+    white-space: normal;
+    color: #ffe5ad;
+    /* padding: 50px; */
+  }
+
+  #skills ul {
+    position: relative;
+    left: 50%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    list-style: none;
+  }
+  #project h1 {
+    color: #ffe5ad;
+  }
+
+  .card {
+    background-color: #ffe5ad !important;
+  }
+
+  .btn {
+    background-color: #090f25 !important;
+  }
+
+  .contact h1 {
+    color: #ffe5ad;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffe5ad;
+  }
+}
